@@ -14,7 +14,7 @@ company = 'FB'
 start = dt.datetime(2012,1,1)
 end = dt.datetime(2024,1,1)
 
-data = web.DataReader(company, "yahpp", start, end)
+data = web.DataReader(company, "yahoo", start, end)
 
 #prepare data
 scaler = MinMaxScaler(feature_range=(0,1))
